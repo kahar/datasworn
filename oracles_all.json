@@ -2010,7 +2010,7 @@
         ]
       },
       {
-        "Name": "Quick Settlement Name: Prefix",
+        "Name": "Quick Settlement Name: Suffix",
         "Source": { "Name": "Ironsworn rulebook", "Page": 180 },
         "Use with": [
           { "Name": "Quick Settlement Name: Suffix", "Category": "Settlement" }
