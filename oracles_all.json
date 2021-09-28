@@ -2470,39 +2470,39 @@
           { "Chance": 70, "Description": "Sanktuarium" },
           { "Chance": 80, "Description": "Krypta" },
           { "Chance": 90, "Description": "Grobowiec" },
-          { "Chance": 100, "Description": "Skarbiec" }
+          { "Chance": 100, "Description": "Skarbiec"}
         ]
       },
       {
         "Name": "Theme",
         "Display name": "Site Nature: Theme",
         "Table": [
-          { "Chance": 11, "Description": "Ancient" },
-          { "Chance": 23, "Description": "Corrupted" },
-          { "Chance": 35, "Description": "Fortified" },
-          { "Chance": 48, "Description": "Hallowed" },
-          { "Chance": 61, "Description": "Haunted" },
-          { "Chance": 74, "Description": "Infested" },
-          { "Chance": 87, "Description": "Ravaged" },
-          { "Chance": 100, "Description": "Wild" }
+          { "Chance": 11, "Description": "starożytny" },
+          { "Chance": 23, "Description": "zepsuty" },
+          { "Chance": 35, "Description": "warowny" },
+          { "Chance": 48, "Description": "święty" },
+          { "Chance": 61, "Description": "nawiedzony" },
+          { "Chance": 74, "Description": "zainfekowany" },
+          { "Chance": 87, "Description": "spustoszony" },
+          { "Chance": 100, "Description": "dziki" }
         ]
       },
       {
         "Name": "Domain",
         "Display name": "Site Nature: Domain",
         "Table": [
-          { "Chance": 6, "Description": "Kurchan" },
-          { "Chance": 18, "Description": "Jaskinia" },
-          { "Chance": 28, "Description": "Zamarznięta jaskinia" },
-          { "Chance": 32, "Description": "Lodowa pustynia" },
-          { "Chance": 38, "Description": "Kopalnia" },
-          { "Chance": 48, "Description": "Przełęcz" },
-          { "Chance": 58, "Description": "Ruiny" },
-          { "Chance": 68, "Description": "Morska jaskinia" },
-          { "Chance": 78, "Description": "Mokradła" },
-          { "Chance": 83, "Description": "Twierdza" },
-          { "Chance": 95, "Description": "Puszcza" },
-          { "Chance": 100, "Description": "Katakumby" }
+          { "Chance": 6, "Description": "Kurchan", "Oracles": [{ "Category": "Site", "Name": "Barrow" }]},
+          { "Chance": 18, "Description": "Jaskinia", "Oracles": [{ "Category": "Site", "Name": "Cavern" }]},
+          { "Chance": 28, "Description": "Zamarznięta jaskinia", "Oracles": [{ "Category": "Site", "Name": "Frozen Cavern" }]},
+          { "Chance": 32, "Description": "Lodowa pustynia", "Oracles": [{ "Category": "Site", "Name": "Icereach" }]},
+          { "Chance": 38, "Description": "Kopalnia", "Oracles": [{ "Category": "Site", "Name": "Mine" }]},
+          { "Chance": 48, "Description": "Przełęcz", "Oracles": [{ "Category": "Site", "Name": "Pass" }]},
+          { "Chance": 58, "Description": "Ruiny", "Oracles": [{ "Category": "Site", "Name": "Ruin" }]},
+          { "Chance": 68, "Description": "Morska jaskinia", "Oracles": [{ "Category": "Site", "Name": "Sea Cave" }]},
+          { "Chance": 78, "Description": "Mokradła", "Oracles": [{ "Category": "Site", "Name": "Shadowfen" }]},
+          { "Chance": 83, "Description": "Twierdza", "Oracles": [{ "Category": "Site", "Name": "Stronghold" }]},
+          { "Chance": 95, "Description": "Puszcza", "Oracles": [{ "Category": "Site", "Name": "Tanglewood" }]},
+          { "Chance": 100, "Description": "Katakumby", "Oracles": [{ "Category": "Site", "Name": "Underkeep" }]}
         ]
       }
     ]
