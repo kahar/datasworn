@@ -1939,7 +1939,7 @@
         "Description": "A season or environmental aspect",
         "Details": "What influence does the weather have on this settlement?",
         "Table": [
-          { "Chance": 10, "Description": "Dom ziemi" },
+          { "Chance": 10, "Description": "Dom zimy" },
           { "Chance": 20, "Description": "Przystań wiatru" },
           { "Chance": 30, "Description": "Burzowisko" },
           { "Chance": 40, "Description": "Ponury mróz" },
@@ -2516,15 +2516,15 @@
         "Source": { "Name": "Ironsworn: Delve", "Page": 220 },
         "Description": "You can use the Category oracle above to randomly select a broad type of threat for your campaign. If you are told to roll twice, take both results and decide how these two threats act together or represent a more complex situation. For example, choosing both a Malignant Plague and Zealous Cult might signify an evil sect which has unleashed a sickness upon the Ironlands in service to some dark god.\n\nFor additional detail, use other oracles as appropriate. For example, you can look to the Action and Theme oracles (*Ironsworn Core*, page 174) or Character Goal oracle (*Ironsworn Core*, page 182) to define the motivations of a Scheming Leader.",
         "Table": [
-          { "Chance": 10, "Description": "Burgeoning Conflict" },
-          { "Chance": 20, "Description": "Cursed Site" },
-          { "Chance": 30, "Description": "Environmental Calamity" },
-          { "Chance": 40, "Description": "Malignant Plague" },
-          { "Chance": 50, "Description": "Rampaging Creature" },
-          { "Chance": 60, "Description": "Ravaging Horde" },
-          { "Chance": 70, "Description": "Scheming Leader" },
-          { "Chance": 80, "Description": "Power-Hungry Mystic" },
-          { "Chance": 90, "Description": "Zealous Cult" },
+          { "Chance": 10, "Description": "Narastający konflikt", "Oracles": [{ "Category": "Threat", "Name": "Burgeoning Conflict" }] },
+          { "Chance": 20, "Description": "Przeklęte miejsce", "Oracles": [{ "Category": "Threat", "Name": "Cursed Site" }] },
+          { "Chance": 30, "Description": "Katastrofa środowiskowa", "Oracles": [{ "Category": "Threat", "Name": "Environmental Calamity" }] },
+          { "Chance": 40, "Description": "Złowroga plaga", "Oracles": [{ "Category": "Threat", "Name": "Malignant Plague" }] },
+          { "Chance": 50, "Description": "Szalejąca istota", "Oracles": [{ "Category": "Threat", "Name": "Rampaging Creature" }] },
+          { "Chance": 60, "Description": "Pustosząca horda", "Oracles": [{ "Category": "Threat", "Name": "Ravaging Horde" }] },
+          { "Chance": 70, "Description": "Knujący władca", "Oracles": [{ "Category": "Threat", "Name": "Scheming Leader" }] },
+          { "Chance": 80, "Description": "Żądny władzy mistyk", "Oracles": [{ "Category": "Threat", "Name": "Power-Hungry Mystic" }] },
+          { "Chance": 90, "Description": "Gorliwy kult", "Oracles": [{ "Category": "Threat", "Name": "Zealous Cult" }] },
           {
             "Chance": 100,
             "Description": "Wylosuj dwa razy",
@@ -2537,22 +2537,16 @@
         "Display name": "Threat: Burgeoning Conflict",
         "Source": { "Name": "Ironsworn: Delve", "Page": 221 },
         "Table": [
-          { "Chance": 10, "Description": "Allow warmongers to gain influence" },
-          { "Chance": 20, "Description": "Break a treaty" },
-          { "Chance": 30, "Description": "Force a hasty decision" },
-          { "Chance": 40, "Description": "Deepen suspicions" },
-          { "Chance": 50, "Description": "Trigger a confrontation" },
-          { "Chance": 60, "Description": "Subvert a potential accord" },
-          { "Chance": 70, "Description": "Isolate the antagonists" },
-          { "Chance": 80, "Description": "Draw new battle lines" },
-          {
-            "Chance": 90,
-            "Description": "Reveal an unexpected aspect of the dispute"
-          },
-          {
-            "Chance": 100,
-            "Description": "Introduce a new person or faction to complicate the situation"
-          }
+          { "Chance": 10, "Description": "Pozwól zwolennikom wojny zdobyć wpływy" },
+          { "Chance": 20, "Description": "Złam sojusz" },
+          { "Chance": 30, "Description": "Wymuś pochopną decyzję" },
+          { "Chance": 40, "Description": "Pogłąb podejrzenia" },
+          { "Chance": 50, "Description": "Rozpocznij konfrontacje" },
+          { "Chance": 60, "Description": "Odwróć potencjalne porozumienie" },
+          { "Chance": 70, "Description": "Odizoluj antagonistę" },
+          { "Chance": 80, "Description": "Zmień front wojenny" },
+          { "Chance": 90, "Description": "Odkryj niespodziewany aspekt konfliktu" },
+          { "Chance": 100, "Description": "Wprowadź nową osobę lub frakcję" }
         ]
       },
       {
@@ -2560,28 +2554,16 @@
         "Display name": "Threat: Cursed Site",
         "Source": { "Name": "Ironsworn: Delve", "Page": 221 },
         "Table": [
-          { "Chance": 10, "Description": "Unleash a creature or being" },
-          { "Chance": 20, "Description": "Lure the unwary into its depths" },
-          { "Chance": 30, "Description": "Offer promises of power" },
-          {
-            "Chance": 40,
-            "Description": "Reveal a new aspect of its cursed history"
-          },
-          {
-            "Chance": 50,
-            "Description": "Expand its malignancy to surrounding lands"
-          },
-          {
-            "Chance": 60,
-            "Description": "Leave its mark on an inhabitant or visitor"
-          },
-          { "Chance": 70, "Description": "Reveal hidden depths" },
-          {
-            "Chance": 80,
-            "Description": "Ensnare an important person or object"
-          },
-          { "Chance": 90, "Description": "Corrupt the environment" },
-          { "Chance": 100, "Description": "Transform its nature" }
+          { "Chance": 10, "Description": "Uwolnij stworzenie lub istotę" },
+          { "Chance": 20, "Description": "Zwab nieświadomych do środka" },
+          { "Chance": 30, "Description": "Obietnice mocy i potęgi" },
+          { "Chance": 40, "Description": "Odkryj nowy fragment przeklętej historii" },
+          { "Chance": 50, "Description": "Rozszerz zasięg oddziaływania" },
+          { "Chance": 60, "Description": "Zostaw ślad na mieszkańcu lub gościu" },
+          { "Chance": 70, "Description": "Odkryj ukrytą głębie" },
+          { "Chance": 80, "Description": "Opętaj ważną postać lub przedmiot" },
+          { "Chance": 90, "Description": "Skaż otoczenie" },
+          { "Chance": 100, "Description": "Przekształć istotę miejsca" }
         ]
       },
       {
@@ -2589,42 +2571,33 @@
         "Display name": "Threat: Environmental Calamity",
         "Source": { "Name": "Ironsworn: Delve", "Page": 221 },
         "Table": [
-          { "Chance": 10, "Description": "Devastate a place" },
-          { "Chance": 20, "Description": "Block a path" },
-          {
-            "Chance": 30,
-            "Description": "Threaten a community with imminent destruction"
-          },
-          { "Chance": 40, "Description": "Manifest unexpected effects" },
-          { "Chance": 50, "Description": "Expand in scope or intensity" },
-          { "Chance": 60, "Description": "Allow someone to take advantage" },
-          { "Chance": 70, "Description": "Deprive of resources" },
-          {
-            "Chance": 80,
-            "Description": "Isolate an important person or community"
-          },
-          { "Chance": 90, "Description": "Force refugees into hostile lands" },
-          { "Chance": 100, "Description": "Disrupt natural ecosystems" }
-        ]
+          { "Chance": 10, "Description": "Zniszcz miejsce" },
+          { "Chance": 20, "Description": "Zablokuj przejście" },
+          { "Chance": 30, "Description": "Zagroź społeczności nieuchronnym zniszczeniem" },
+          { "Chance": 40, "Description": "Zamanifestuj niespodziewane efekty" },
+          { "Chance": 50, "Description": "Zwiększ zasięg lub intensywność" },
+          { "Chance": 60, "Description": "Pozwól odnieść komuś korzyść" },
+          { "Chance": 70, "Description": "Pozbaw zasobów" },
+          { "Chance": 80, "Description": "Odizoluj kogoś ważnego " },
+          { "Chance": 90, "Description": "Wygnaj uchodźców na niebezpieczne ziemie" },
+          { "Chance": 100, "Description": "Zakłóć naturalny ekosystem"}
+            ]
       },
       {
         "Name": "Malignant Plague",
         "Display name": "Threat: Malignant Plague",
         "Source": { "Name": "Ironsworn: Delve", "Page": 222 },
         "Table": [
-          { "Chance": 10, "Description": "Manifest new symptoms or effects" },
-          { "Chance": 20, "Description": "Infect someone important" },
-          {
-            "Chance": 30,
-            "Description": "Expand to new territory or communities"
-          },
-          { "Chance": 40, "Description": "Allow someone to take advantage" },
-          { "Chance": 50, "Description": "Allow someone to take the blame" },
-          { "Chance": 60, "Description": "Create panic or disorder" },
-          { "Chance": 70, "Description": "Force a horrible decision" },
-          { "Chance": 80, "Description": "Lure into complacency" },
-          { "Chance": 90, "Description": "Reveal the root of the sickness" },
-          { "Chance": 100, "Description": "Undermine a potential cure" }
+          { "Chance": 10, "Description": "Zamanifestuj nowe symptomy" },
+          { "Chance": 20, "Description": "Zainfekuj kogoś ważnego" },
+          { "Chance": 30, "Description": "Zwiększ zasięg plagi" },
+          { "Chance": 40, "Description": "Pozwól odnieść komuś korzyść" },
+          { "Chance": 50, "Description": "Obarcz kogoś winą" },
+          { "Chance": 60, "Description": "Stwórz panikę lub chaos" },
+          { "Chance": 70, "Description": "Wymuś straszliwą decyzję" },
+          { "Chance": 80, "Description": "Zwiedź do współudziału" },
+          { "Chance": 90, "Description": "Odkryj źródło choroby" },
+          { "Chance": 100, "Description": "Podważ potencjalne remedium" }
         ]
       },
       {
@@ -2632,22 +2605,16 @@
         "Display name": "Threat: Rampaging Creature",
         "Source": { "Name": "Ironsworn: Delve", "Page": 222 },
         "Table": [
-          {
-            "Chance": 10,
-            "Description": "Reveal a new aspect of its nature or abilities"
-          },
-          { "Chance": 20, "Description": "Expand its territory" },
-          { "Chance": 30, "Description": "Make a sudden and brutal attack" },
-          {
-            "Chance": 40,
-            "Description": "Control or influence lesser creatures"
-          },
-          { "Chance": 50, "Description": "Create confusion or strife" },
-          { "Chance": 60, "Description": "Leave foreboding signs" },
-          { "Chance": 70, "Description": "Lure the unwary" },
-          { "Chance": 80, "Description": "Imperil an event" },
-          { "Chance": 90, "Description": "Assert control over a location" },
-          { "Chance": 100, "Description": "Threaten resources" }
+          { "Chance": 10, "Description": "Odkryj niespodziewaną cechę lub umiejętność" },
+          { "Chance": 20, "Description": "Rozszerz zasięg oddziaływania" },
+          { "Chance": 30, "Description": "Wykonaj nagły i brutalny atak" },
+          { "Chance": 40, "Description": "Kontroluj inne stworzenia" },
+          { "Chance": 50, "Description": "Stwórz zamieszanie lub niesnaski" },
+          { "Chance": 60, "Description": "Zostaw złowrogie znaki" },
+          { "Chance": 70, "Description": "Zwab nieuważnego" },
+          { "Chance": 80, "Description": "Zagróź wydarzeniu" },
+          { "Chance": 90, "Description": "Przejmij kontrolę nad lokacją" },
+          { "Chance": 100, "Description": "Zagróź zapasom" }
         ]
       },
       {
@@ -2655,19 +2622,16 @@
         "Display name": "Threat: Ravaging Horde",
         "Source": { "Name": "Ironsworn: Delve", "Page": 222 },
         "Table": [
-          { "Chance": 10, "Description": "Overrun defenses" },
-          { "Chance": 20, "Description": "Gather resources" },
-          { "Chance": 30, "Description": "Attack a location" },
-          { "Chance": 40, "Description": "Expand forces" },
-          { "Chance": 50, "Description": "Appoint or reveal a leader" },
-          { "Chance": 60, "Description": "Send forth a champion" },
-          { "Chance": 70, "Description": "Create a diversion" },
-          {
-            "Chance": 80,
-            "Description": "Undermine an opposing force from within"
-          },
-          { "Chance": 90, "Description": "Cut off supplies or reinforcements" },
-          { "Chance": 100, "Description": "Employ a new weapon" }
+          { "Chance": 10, "Description": "Stłamsz obronę" },
+          { "Chance": 20, "Description": "Zdobądź zasoby" },
+          { "Chance": 30, "Description": "Zaatakuj miejsce" },
+          { "Chance": 40, "Description": "Zwiększ siły" },
+          { "Chance": 50, "Description": "Wskaż nowego lidera" },
+          { "Chance": 60, "Description": "Wyślij orędownika" },
+          { "Chance": 70, "Description": "Stwórz dywersję" },
+          { "Chance": 80, "Description": "Osłab przeciwnika od wewnątrz" },
+          { "Chance": 90, "Description": "Odetnij od zasobów lub wzmocnień" },
+          { "Chance": 100, "Description": "Zastosuj nową broń" }
         ]
       },
       {
@@ -2675,22 +2639,16 @@
         "Display name": "Threat: Scheming Leader",
         "Source": { "Name": "Ironsworn: Delve", "Page": 223 },
         "Table": [
-          { "Chance": 10, "Description": "Defeat an enemy" },
-          { "Chance": 20, "Description": "Form a new alliance" },
-          { "Chance": 30, "Description": "Usurp or undermine another leader" },
-          {
-            "Chance": 40,
-            "Description": "Force the loyalty of a community or important person"
-          },
-          { "Chance": 50, "Description": "Enact a new law or tradition" },
-          { "Chance": 60, "Description": "Rescind an old law or tradition" },
-          { "Chance": 70, "Description": "Reveal a true intention" },
-          { "Chance": 80, "Description": "Unravel an existing alliance" },
-          { "Chance": 90, "Description": "Incite conflict" },
-          {
-            "Chance": 100,
-            "Description": "Use an unexpected capability or asset"
-          }
+          { "Chance": 10, "Description": "Pokonaj wroga" },
+          { "Chance": 20, "Description": "Zawrzyj nowy sojusz" },
+          { "Chance": 30, "Description": "Zwalcz innego przywódce" },
+          { "Chance": 40, "Description": "Zmuś ważną osobę do posłuszeństwa" },
+          { "Chance": 50, "Description": "Wprowadź nowe prawo lub tradycje" },
+          { "Chance": 60, "Description": "Zlikwiduj stare prawo lub tradycję" },
+          { "Chance": 70, "Description": "Ukaż prawdziwe intencje" },
+          { "Chance": 80, "Description": "Odkryj istniejący sojusz" },
+          { "Chance": 90, "Description": "Rozpocznij konflikt" },
+          { "Chance": 100, "Description": "Wykorzystaj niespodziewany zasób" }
         ]
       },
       {
@@ -2698,22 +2656,16 @@
         "Display name": "Threat: Power-Hungry Mystic",
         "Source": { "Name": "Ironsworn: Delve", "Page": 223 },
         "Table": [
-          { "Chance": 10, "Description": "Gain hidden knowledge" },
-          { "Chance": 20, "Description": "Assault an enemy with magic" },
-          { "Chance": 30, "Description": "Despoil a place through magic" },
-          { "Chance": 40, "Description": "Forge a bond with ancient forces" },
-          {
-            "Chance": 50,
-            "Description": "Create magical wards or protections"
-          },
-          { "Chance": 60, "Description": "Obtain a powerful artifact" },
-          { "Chance": 70, "Description": "Tempt with power or secrets" },
-          { "Chance": 80, "Description": "Recruit a follower or ally" },
-          {
-            "Chance": 90,
-            "Description": "Sacrifice something in exchange for greater power"
-          },
-          { "Chance": 100, "Description": "Use magic to trick or deceive" }
+          { "Chance": 10, "Description": "Pozyskaj ukrytą wiedzę" },
+          { "Chance": 20, "Description": "Zaatakuj przy pomocy magii" },
+          { "Chance": 30, "Description": "Sprofanuj miejsce" },
+          { "Chance": 40, "Description": "Zawrzyj pakt ze starożytnimi mocami" },
+          { "Chance": 50, "Description": "Stwórz magiczną barierę" },
+          { "Chance": 60, "Description": "Zdobądź potężny artefakt" },
+          { "Chance": 70, "Description": "Kuś przy pomocy potęgi" },
+          { "Chance": 80, "Description": "Zwerbuj zwolennika lub sojusznika" },
+          { "Chance": 90, "Description": "Złóż coś w ofierze" },
+          { "Chance": 100, "Description": "Wykorzystaj magię do oszustwa" }
         ]
       },
       {
@@ -2721,22 +2673,16 @@
         "Display name": "Threat: Zealous Cult",
         "Source": { "Name": "Ironsworn: Delve", "Page": 223 },
         "Table": [
-          { "Chance": 10, "Description": "Overtake a faction or community" },
-          { "Chance": 20, "Description": "Unlock secrets to greater power" },
-          { "Chance": 30, "Description": "Establish false credibility" },
-          { "Chance": 40, "Description": "Appoint or reveal a leader" },
-          {
-            "Chance": 50,
-            "Description": "Lure new members or establish alliances"
-          },
-          {
-            "Chance": 60,
-            "Description": "Subvert opposition through devious schemes"
-          },
-          { "Chance": 70, "Description": "Attack opposition directly" },
-          { "Chance": 80, "Description": "Spread the word of its doctrine" },
-          { "Chance": 90, "Description": "Reveal a dire prophecy" },
-          { "Chance": 100, "Description": "Reveal its true nature or goal" }
+          { "Chance": 10, "Description": "Przejmij frakcję lub społeczność" },
+          { "Chance": 20, "Description": "Odkryj sekret większej potęgi" },
+          { "Chance": 30, "Description": "Stwórz fałszywą wiarygodność" },
+          { "Chance": 40, "Description": "Wskaż nowego lidera" },
+          { "Chance": 50, "Description": "Skuś nowych zwolenników" },
+          { "Chance": 60, "Description": "Osłab przeciwników podstępem" },
+          { "Chance": 70, "Description": "Zaatakuj przeciwników bezpośrednio" },
+          { "Chance": 80, "Description": "Rozpowszechniaj informacje o doktrynie" },
+          { "Chance": 90, "Description": "Ujawnij straszne proroctwo " },
+          { "Chance": 100, "Description": "Ukaż prawdziwe intencje" }
         ]
       }
     ]
@@ -2762,36 +2708,24 @@
         "Source": { "Name": "Ironsworn rulebook", "Page": 188 },
         "Description": "Use this oracle to help inspire an action for an NPC in combat. When you’re not sure what your foe does next, particularly when they have initiative, roll on this table and interpret the result as appropriate to your foe and the situation.",
         "Table": [
-          { "Chance": 3, "Description": "Compel a surrender." },
-          { "Chance": 6, "Description": "Coordinate with allies." },
-          { "Chance": 9, "Description": "Gather reinforcements." },
-          { "Chance": 13, "Description": "Seize something or someone." },
-          { "Chance": 17, "Description": "Provoke a reckless response." },
-          { "Chance": 21, "Description": "Intimidate or frighten." },
-          { "Chance": 25, "Description": "Reveal a surprising truth." },
-          {
-            "Chance": 29,
-            "Description": "Shift focus to someone or something else."
-          },
-          {
-            "Chance": 33,
-            "Description": "Destroy something, or render it useless."
-          },
-          { "Chance": 39, "Description": "Take a decisive action." },
-          { "Chance": 45, "Description": "Reinforce defenses." },
-          { "Chance": 52, "Description": "Ready an action." },
-          { "Chance": 60, "Description": "Use the terrain to gain advantage." },
-          {
-            "Chance": 68,
-            "Description": "Leverage the advantage of a weapon or ability."
-          },
-          { "Chance": 78, "Description": "Create an opportunity." },
-          { "Chance": 89, "Description": "Attack with precision." },
-          { "Chance": 99, "Description": "Attack with power." },
-          {
-            "Chance": 100,
-            "Description": "Take a completely unexpected action."
-          }
+          { "Chance": 3, "Description": "Zmusza do złożenia broni." },
+          { "Chance": 6, "Description": "Koordynuje się z sojusznikami." },
+          { "Chance": 9, "Description": "Wzywa posiłki." },
+          { "Chance": 13, "Description": "Chwyta coś lub kogoś." },
+          { "Chance": 17, "Description": "Prowokuje." },
+          { "Chance": 21, "Description": "Zastrasza lub przeraża." },
+          { "Chance": 25, "Description": "Odkrywa zaskakującą prawdę." },
+          { "Chance": 29, "Description": "Przenosi uwagę na coś lub kogoś innego." },
+          { "Chance": 33, "Description": "Niszczy lub czyni coś bezużytecznym." },
+          { "Chance": 39, "Description": "Podejmuje zdecydowane działanie." },
+          { "Chance": 45, "Description": "Wzmacnia obronę." },
+          { "Chance": 52, "Description": "Szykuje się do działania." },
+          { "Chance": 60, "Description": "Wykorzystuje teren do uzyskania przewagi." },
+          { "Chance": 68, "Description": "Wykorzystuje przewagę wynikającą z broni lub umiejętności." },
+          { "Chance": 78, "Description": "Tworzy okazję." },
+          { "Chance": 89, "Description": "Atakuje z precyzją." },
+          { "Chance": 99, "Description": "Atakuje z siłą." },
+          { "Chance": 100, "Description": "Robi coś zupełnie nieoczekiwanego." }
         ]
       },
       {
@@ -2799,46 +2733,28 @@
         "Source": { "Name": "Ironsworn rulebook", "Page": 190 },
         "Description": "Use this oracle to introduce a narrative surprise or revelation. Most of these results have a negative implication, and can be used to resolve a match at a crucial moment in your story. In particular, this is an effective tool to leverage when you make a move with matched 10’s on the challenge dice.\n\nThis oracle offers similar results to the *Pay the Price* table (page 105), but is more focused on dramatic events tied to your current quests.",
         "Table": [
-          { "Chance": 5, "Description": "It was all a diversion." },
-          { "Chance": 10, "Description": "A dark secret is revealed." },
-          { "Chance": 15, "Description": "A trap is sprung." },
-          {
-            "Chance": 20,
-            "Description": "An assumption is revealed to be false."
-          },
-          { "Chance": 25, "Description": "A secret alliance is revealed." },
-          { "Chance": 30, "Description": "Your actions benefit an enemy." },
-          { "Chance": 35, "Description": "Someone returns unexpectedly." },
-          { "Chance": 40, "Description": "A more dangerous foe is revealed." },
-          {
-            "Chance": 45,
-            "Description": "You and an enemy share a common goal."
-          },
-          { "Chance": 50, "Description": "A true identity is revealed." },
-          {
-            "Chance": 55,
-            "Description": "You are betrayed by someone who was trusted."
-          },
-          { "Chance": 60, "Description": "You are too late." },
-          { "Chance": 65, "Description": "The true enemy is revealed." },
-          { "Chance": 70, "Description": "The enemy gains new allies." },
-          { "Chance": 75, "Description": "A new danger appears." },
-          { "Chance": 80, "Description": "Someone or something goes missing." },
-          {
-            "Chance": 85,
-            "Description": "The truth of a relationship is revealed."
-          },
-          {
-            "Chance": 90,
-            "Description": "Two seemingly unrelated situations are shown to be connected."
-          },
-          {
-            "Chance": 95,
-            "Description": "Unexpected powers or abilities are revealed."
-          },
+          { "Chance": 5, "Description": "To wszystko było tylko dywersją.6" },
+          { "Chance": 10, "Description": "Mroczny sekret został ujawniony.6" },
+          { "Chance": 15, "Description": "Pułapka została aktywowana.6" },
+          { "Chance": 20, "Description": "Założenie okazało się fałszywe.6" },
+          { "Chance": 25, "Description": "Tajny sojusz został ujawniony.6" },
+          { "Chance": 30, "Description": "Twoje działania przynoszą korzyść wrogowi.6" },
+          { "Chance": 35, "Description": "Ktoś niespodziewanie powraca.6" },
+          { "Chance": 40, "Description": "Wróg groźniejszy od aktualnego został ujawniony.6" },
+          { "Chance": 45, "Description": "Okazuje się, że wróg podziela Twój cel.6" },
+          { "Chance": 50, "Description": "Prawdziwa tożsamośc została ujawniona.6" },
+          { "Chance": 55, "Description": "Zostajesz zdradzony przez kogoś zaufanego.6" },
+          { "Chance": 60, "Description": "Spóźniłeś się6" },
+          { "Chance": 65, "Description": "Prawdziwy wróg został ujawniony.6" },
+          { "Chance": 70, "Description": "Wróg zyskał nowych sojuszników.6" },
+          { "Chance": 75, "Description": "Pojawia się nowe niebezpieczeństwo.6" },
+          { "Chance": 80, "Description": "Ktoś lub coś zaginęło.6" },
+          { "Chance": 85, "Description": "Prawda o relacji została ujawniona.6" },
+          { "Chance": 90, "Description": "Dwie pozornie niezwiązane sytuacje okazują się połączone.6" },
+          { "Chance": 95, "Description": "Nieoczekiwanie manifestują się nowe zdolności.6" },
           {
             "Chance": 100,
-            "Description": "Roll twice more on this table. Both results occur. If they are the same result, make it more dramatic.",
+            "Description": "Rzuć dwa razy i zastosuj oba wyniki.",
             "Multiple rolls": { "Amount": 2, "Allow duplicates": true }
           }
         ]
@@ -2848,90 +2764,33 @@
         "Source": { "Name": "Ironsworn rulebook", "Page": 189 },
         "Description": "Those who deal in magic may find themselves at the mercy of chaos. This oracle can supplement, or replace, the *Pay the Price* table (page 105) when resolving the outcome of a failed ritual or other negative interaction with mystical forces. Use this oracle in dramatic moments, or to introduce an unexpected outcome triggered by a match.",
         "Table": [
-          {
-            "Chance": 4,
-            "Description": "Your ritual has the opposite affect."
-          },
-          { "Chance": 8, "Description": "You are sapped of strength." },
-          {
-            "Chance": 12,
-            "Description": "Your friend, ally, or companion is adversely affected."
-          },
-          { "Chance": 16, "Description": "You destroy an important object." },
-          { "Chance": 20, "Description": "You inadvertently summon a horror." },
-          {
-            "Chance": 24,
-            "Description": "You collapse, and drift into a troubled sleep."
-          },
-          {
-            "Chance": 28,
-            "Description": "You undergo a physical torment which leaves its mark upon you."
-          },
-          {
-            "Chance": 32,
-            "Description": "You hear ghostly voices whispering of dark portents."
-          },
-          {
-            "Chance": 36,
-            "Description": "You are lost in shadow, and find yourself in another place without memory of how you got there."
-          },
-          {
-            "Chance": 40,
-            "Description": "You alert someone or something to your presence."
-          },
-          {
-            "Chance": 44,
-            "Description": "You are not yourself, and act against a friend, ally, or companion."
-          },
-          {
-            "Chance": 48,
-            "Description": "You affect or damage your surroundings, causing a disturbance or potential harm."
-          },
-          { "Chance": 52, "Description": "You waste resources." },
-          {
-            "Chance": 56,
-            "Description": "You suffer the loss of a sense for several hours."
-          },
-          {
-            "Chance": 60,
-            "Description": "You lose your connection to magic for a day or so, and cannot perform rituals."
-          },
-          {
-            "Chance": 64,
-            "Description": "Your ritual affects the target in an unexpected and problematic way."
-          },
-          {
-            "Chance": 68,
-            "Description": "Your ritual reveals a surprising and troubling truth."
-          },
-          { "Chance": 72, "Description": "You are tempted by dark powers." },
-          {
-            "Chance": 76,
-            "Description": "You see a troubling vision of your future."
-          },
-          {
-            "Chance": 80,
-            "Description": "You can't perform this ritual again until you acquire an important component."
-          },
-          {
-            "Chance": 84,
-            "Description": "You develop a strange fear or compulsion."
-          },
-          {
-            "Chance": 88,
-            "Description": "Your ritual causes creatures to exhibit strange or aggressive behavior."
-          },
-          {
-            "Chance": 92,
-            "Description": "You are tormented by an apparition from your past."
-          },
-          {
-            "Chance": 96,
-            "Description": "You are wracked with sudden sickness."
-          },
+          { "Chance": 4, "Description": "Twój rytuał przynosi odwrotny skutek niż zamierzony." },
+          { "Chance": 8, "Description": "Rytuał wysysa twoje siły." },
+          { "Chance": 12, "Description": "Twój przyjaciel, sojusznik lub towarzysz jest zagrożony." },
+          { "Chance": 16, "Description": "Niszczysz ważny obiekt." },
+          { "Chance": 20, "Description": "Nieumyślnie przywołujesz horror." },
+          { "Chance": 24, "Description": "Upadasz i zapadasz w niespokojny sen." },
+          { "Chance": 28, "Description": "Doznajesz fizycznego cierpienia, które pozostawia na tobie swój ślad." },
+          { "Chance": 32, "Description": "Słyszysz upiorne głosy szepczące o mrocznych znakach." },
+          { "Chance": 36, "Description": "Zanurzasz się w mroku i wyłaniasz w innym miejscu bez pamięci o tym, jak się tam dostałeś." },
+          { "Chance": 40, "Description": "Ostrzegasz kogoś lub coś o swojej obecności." },
+          { "Chance": 44, "Description": "Nie jesteś sobą i działasz przeciwko przyjacielowi, sojusznikowi lub towarzyszowi." },
+          { "Chance": 48, "Description": "Wpływasz lub uszkadzasz swoje otoczenie, powodując zamieszanie i potencjalną szkodę." },
+          { "Chance": 52, "Description": "Marnujesz zasoby." },
+          { "Chance": 56, "Description": "Tracisz zmysły na kilka godzin." },
+          { "Chance": 60, "Description": "Tracisz połączenie z magią na dzień lub dwa i nie możesz wykonywać rytuałów." },
+          { "Chance": 64, "Description": "Twój rytuał wpływa na cel w nieoczekiwany i problematyczny sposób." },
+          { "Chance": 68, "Description": "Twój rytuał ujawnia zaskakującą i niepokojącą prawdę." },
+          { "Chance": 72, "Description": "Kuszą cię mroczne moce" },
+          { "Chance": 76, "Description": "Widzisz niepokojącą wizję swojej przyszłości." },
+          { "Chance": 80, "Description": "Nie możesz ponownie wykonać tego rytuału, dopóki nie zdobędziesz ważnego składnika." },
+          { "Chance": 84, "Description": "Zdobywasz dziwny lęk lub obsesje." },
+          { "Chance": 88, "Description": "Twój rytuał powoduje, że stworzenia wykazują dziwne lub agresywne zachowanie." },
+          { "Chance": 92, "Description": "Męczy cię wizja z przeszłości." },
+          { "Chance": 96, "Description": "Zmorzyła cię nagła choroba." },
           {
             "Chance": 100,
-            "Description": "Roll twice more on this table. Both results occur. If they are the same result, make it worse.",
+            "Description": "Rzuć jeszcze dwa razy i zastosuj oba wyniki. Jeśli są takie same, sprawia to, że sytuacja się intensyfikuje.",
             "Multiple rolls": { "Amount": 2, "Allow duplicates": true }
           }
         ]
