@@ -2111,46 +2111,45 @@
         "Description": "To generate a name for a site, first roll on the Format table above. Then, fill in the blanks by using the Description (page 207), Detail (page 208), Namesake (page 209), and Place (page 210) oracles.\n\nIf the form of a particular word doesn’t work, try making it plural instead of singular, or vice-versa.\n\nIf you already know the theme and domain, you can pick from the tables instead of rolling. If not, you can use these oracles to help define those aspects of the site. Use the Place oracle to roll for a domain, and let the Description and Detail oracles inform your selection of a theme.\n\nThe site’s name might be known in your world, or it could just be an evocative label you use to understand its history and nature.",
         "Table": [
           { "Chance": 25, "Description": "[Description] [Place]",
-            "Suggest": [
-              { "Oracles": [{ "Category": "Site", "Name": "Description" }] },
-              { "Oracles": [{ "Category": "Site", "Name": "Domain" }] }
-            ]
+            "Oracles": [
+              { "Category": "Site", "Name": "Description" },
+              { "Category": "Site", "Name": "Domain" }]
           },
           { "Chance": 50, "Description": "[Place] of [Detail]",
-            "Suggest": [
-            { "Oracles": [{ "Category": "Site", "Name": "Domain" }] },
-            { "Oracles": [{ "Category": "Site", "Name": "Detail" }] }
-          ]},
+            "Oracles": [
+              { "Category": "Site", "Name": "Domain" },
+              { "Category": "Site", "Name": "Detail" }]
+          },
           { "Chance": 70, "Description": "[Place] of [Description] [Detail]" ,
-            "Suggest": [
-            { "Oracles": [{ "Category": "Site", "Name": "Domain" }] },
-            { "Oracles": [{ "Category": "Site", "Name": "Description" }] },
-              { "Oracles": [{ "Category": "Site", "Name": "Detail" }] }
-          ]},
+            "Oracles": [
+              { "Category": "Site", "Name": "Domain" },
+              { "Category": "Site", "Name": "Description" },
+              { "Category": "Site", "Name": "Detail" }]
+          },
           { "Chance": 80, "Description": "[Place] of [Namesake's] [Detail]" ,
-            "Suggest": [
-              { "Oracles": [{ "Category": "Site", "Name": "Domain" }] },
-              { "Oracles": [{ "Category": "Site", "Name": "Namesake" }] },
-              { "Oracles": [{ "Category": "Site", "Name": "Detail" }] }
-          ]},
+            "Oracles": [
+              { "Category": "Site", "Name": "Domain" },
+              { "Category": "Site", "Name": "Namesake" },
+              { "Category": "Site", "Name": "Detail" }]
+          },
           { "Chance": 85, "Description": "[Namesake's] [Place]",
-            "Suggest": [
-              { "Oracles": [{ "Category": "Site", "Name": "Namesake" }] },
-              { "Oracles": [{ "Category": "Site", "Name": "Domain" }] }
-          ]},
+            "Oracles": [
+              { "Category": "Site", "Name": "Namesake" },
+              { "Category": "Site", "Name": "Domain" }]
+          },
           {
             "Chance": 95,
             "Description": "[Description] [Place] of [Namesake]",
-            "Suggest": [
-              { "Oracles": [{ "Category": "Site", "Name": "Description" }] },
-              { "Oracles": [{ "Category": "Site", "Name": "Domain" }] },
-              { "Oracles": [{ "Category": "Site", "Name": "Namesake" }] }
-            ]},
+            "Oracles": [
+              { "Category": "Site", "Name": "Description" },
+              { "Category": "Site", "Name": "Domain" },
+              { "Category": "Site", "Name": "Namesake" }]
+          },
           { "Chance": 100, "Description": "[Place] of [Namesake]" ,
-            "Suggest": [
-              { "Oracles": [{ "Category": "Site", "Name": "Domain" }] },
-              { "Oracles": [{ "Category": "Site", "Name": "Namesake" }] }
-            ]}
+            "Oracles": [
+              { "Category": "Site", "Name": "Domain" },
+              { "Category": "Site", "Name": "Namesake" }]
+          }
         ]
       },
       {
